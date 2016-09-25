@@ -16,4 +16,10 @@ test:
   <<: *default
   database:  bill_split_test
 
-#
+#production:
+  adapter: postgresql
+  encoding: unicode
+  database: bill_split_production
+  pool: 5
+  username: root
+  password: root
